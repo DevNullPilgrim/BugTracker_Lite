@@ -1,4 +1,24 @@
-.venv
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Django
+*.sqlite3
+*.log
+
+# venv
 .venv/
-.mypy_cache
-db.sqlite3
+env/
+venv/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# Migrations (если хочешь чистый репо без БД)
+# ! оставь, если это учебный проект с миграциями
+# */migrations/*.py
+# !*/migrations/__init__.py
